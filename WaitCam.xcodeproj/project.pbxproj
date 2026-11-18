@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FECE118AB1819BBDB77DF2B3 /* app_res::Assets.xcassets */ = {isa = PBXBuildFile; fileRef = AA19EED73335682C9A15AA16; };
+		059D9068BDE3E10F92DE0727 /* app_res::InfoPlist.strings */ = {isa = PBXBuildFile; fileRef = 15D06C62B45C4719528AE0E3; };
+		4C162E8B230A6FD6A286E23C /* app_res::PrivacyInfo.xcprivacy */ = {isa = PBXBuildFile; fileRef = 9695C457CF98BD4ED8F75AF6; };
+		FFAB4955D9D994AFE0EC0756 /* app_src::Sources/App/RootCameraShellView.swift */ = {isa = PBXBuildFile; fileRef = C1802E64D2AECA56D6A912C7; };
+		4DF176010100E7929E26B614 /* app_src::Sources/App/WaitCamApp.swift */ = {isa = PBXBuildFile; fileRef = 07978B52AC733D9219D86412; };
+		B15062C5065B7B243C891CAE /* app_src::Sources/Models/DarkroomModels.swift */ = {isa = PBXBuildFile; fileRef = 579048F27A380E179B5619F8; };
+		71BD104D9C2F3AFE38E50A8A /* app_src::Sources/Rendering/FilmLabProcessor.swift */ = {isa = PBXBuildFile; fileRef = 444525401ACD2E61AFC0BD41; };
+		FBA0B649CCD48FD82668CAA1 /* app_src::Sources/Rendering/SimulatedPartySceneRenderer.swift */ = {isa = PBXBuildFile; fileRef = 6EA61466E847ED4417E89940; };
+		A5E07BA8DE729A7DEF2DF50B /* app_src::Sources/Services/CameraSessionService.swift */ = {isa = PBXBuildFile; fileRef = 63875A2404859C49B1D52126; };
+		B0BC894D98039C53A686F8E0 /* app_src::Sources/Services/DarkroomVaultService.swift */ = {isa = PBXBuildFile; fileRef = 9D64CF0519966E473F209380; };
+		A0D963470CF638A6212F7D24 /* app_src::Sources/Services/LiveActivityCoordinator.swift */ = {isa = PBXBuildFile; fileRef = B884F08814EEAD7CA2981466; };
+		4FC94AA2C0A09C645D3BE74F /* app_src::Sources/Services/NotificationAndPhotoService.swift */ = {isa = PBXBuildFile; fileRef = 80FC13EB80EE5A885D2991D6; };
+		789A98CEB3038AF03649A8B8 /* app_src::Sources/Services/StoreKitManager.swift */ = {isa = PBXBuildFile; fileRef = 8D401F2A9D6F181000F13660; };
+		8067C4BEC4390718374C1E69 /* app_src::Sources/Shared/DarkroomActivityAttributes.swift */ = {isa = PBXBuildFile; fileRef = F38BAD6118F3D027AB231CC0; };
+		397D3408F31BBB1A68022372 /* app_src::Sources/Views/CameraViewfinderView.swift */ = {isa = PBXBuildFile; fileRef = 6D80E5F3AAF060C3F7C1E141; };
+		F1E518A3A100C82EDE3A3A35 /* app_src::Sources/Views/DarkroomVaultView.swift */ = {isa = PBXBuildFile; fileRef = 3F9F35CD00603208D3985EA8; };
+		4F22AB76715BC287C973A7CF /* app_src::Sources/Views/ImpulsePaywallSheetView.swift */ = {isa = PBXBuildFile; fileRef = 4FD8E6D9FA534990EB136B1C; };
+		D3DC8B8DE6998A791EE62F43 /* app_src::Sources/Views/LabSettingsSheetView.swift */ = {isa = PBXBuildFile; fileRef = 67AAFF9D6AA62FB53EA879AF; };
+		D43613C05D5EAFEE3F1B9E06 /* app_src::Sources/Views/WaitCamViewModel.swift */ = {isa = PBXBuildFile; fileRef = 5E7E1D5CEEA97108FBF42E97; };
+		E3F052E38EC7B091B2B9C493 /* embed::WaitCamWidgets.appex */ = {isa = PBXBuildFile; fileRef = AB142621AC91179E9B6D5B46; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2F8F1D3DCB4B0DCF2C5FECC4 /* test_res::WaitCam.storekit */ = {isa = PBXBuildFile; fileRef = 9C7CEAC9ACEC74FB0A851827; };
+		2BDAE205F705682AF36DA005 /* test_src::Tests/WaitCamTests/WaitCamTests.swift */ = {isa = PBXBuildFile; fileRef = 1E992BC3ACF96F6015E2EF3A; };
+		E1E73DF902782B3D77D11916 /* widget_res::PrivacyInfo.xcprivacy */ = {isa = PBXBuildFile; fileRef = 9695C457CF98BD4ED8F75AF6; };
+		520716D4106AC9A28AC6A66C /* widget_src::Sources/Shared/DarkroomActivityAttributes.swift */ = {isa = PBXBuildFile; fileRef = F38BAD6118F3D027AB231CC0; };
+		4F27B25E5479D15D61D6E51F /* widget_src::Widgets/DarkroomLiveActivityWidget.swift */ = {isa = PBXBuildFile; fileRef = D36A02947586A5A1FAC0261C; };
+		A2224A566E9BAAD35079B81D /* widget_src::Widgets/WaitCamWidgetsBundle.swift */ = {isa = PBXBuildFile; fileRef = E48A8A61A3E1F511C4DF744F; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0AC53DCD258414F711CAA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7964B0CB7C24DEDCFB6BE42;
+			proxyType = 1;
+			remoteGlobalIDString = 137AE7D406D5F1A73FC0BFD3;
+			remoteInfo = WaitCamWidgets;
+		};
+		7A07881B821CE86272C40303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7964B0CB7C24DEDCFB6BE42;
+			proxyType = 1;
+			remoteGlobalIDString = 447F6BEC548AAE3B91181588;
+			remoteInfo = WaitCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		241BCA7D4C36ADC68F9585E1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E3F052E38EC7B091B2B9C493 /* WaitCamWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		74A74583426E7D0AA82D0749 /* WaitCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB142621AC91179E9B6D5B46 /* WaitCamWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WaitCamWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		143F7B08313B8407D169E48E /* WaitCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaitCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C7E03653000A66AAB37DEB /* Config/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Config/Info.plist"; sourceTree = SOURCE_ROOT; };
+		FF46F0362F4408FAA0F5B5AB /* Config/WaitCam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "WaitCam.entitlements"; path = "Config/WaitCam.entitlements"; sourceTree = SOURCE_ROOT; };
+		9C7CEAC9ACEC74FB0A851827 /* Config/WaitCam.storekit */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "WaitCam.storekit"; path = "Config/WaitCam.storekit"; sourceTree = SOURCE_ROOT; };
+		45526278A338D5251E9C737F /* Config/WaitCamWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "WaitCamWidgets.entitlements"; path = "Config/WaitCamWidgets.entitlements"; sourceTree = SOURCE_ROOT; };
+		7F624670F731ED439B770104 /* Config/Widget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Widget-Info.plist"; path = "Config/Widget-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AA19EED73335682C9A15AA16 /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Resources/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		9695C457CF98BD4ED8F75AF6 /* Resources/PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "PrivacyInfo.xcprivacy"; path = "Resources/PrivacyInfo.xcprivacy"; sourceTree = SOURCE_ROOT; };
+		0847C83E438A435A64E7180E /* Resources/en.lproj/InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en"; path = "Resources/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		99D90727B8256C988E45D894 /* Resources/zh-Hans.lproj/InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Resources/zh-Hans.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		C1802E64D2AECA56D6A912C7 /* Sources/App/RootCameraShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RootCameraShellView.swift"; path = "Sources/App/RootCameraShellView.swift"; sourceTree = SOURCE_ROOT; };
+		07978B52AC733D9219D86412 /* Sources/App/WaitCamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WaitCamApp.swift"; path = "Sources/App/WaitCamApp.swift"; sourceTree = SOURCE_ROOT; };
+		579048F27A380E179B5619F8 /* Sources/Models/DarkroomModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DarkroomModels.swift"; path = "Sources/Models/DarkroomModels.swift"; sourceTree = SOURCE_ROOT; };
+		444525401ACD2E61AFC0BD41 /* Sources/Rendering/FilmLabProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FilmLabProcessor.swift"; path = "Sources/Rendering/FilmLabProcessor.swift"; sourceTree = SOURCE_ROOT; };
+		6EA61466E847ED4417E89940 /* Sources/Rendering/SimulatedPartySceneRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SimulatedPartySceneRenderer.swift"; path = "Sources/Rendering/SimulatedPartySceneRenderer.swift"; sourceTree = SOURCE_ROOT; };
+		63875A2404859C49B1D52126 /* Sources/Services/CameraSessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CameraSessionService.swift"; path = "Sources/Services/CameraSessionService.swift"; sourceTree = SOURCE_ROOT; };
+		9D64CF0519966E473F209380 /* Sources/Services/DarkroomVaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DarkroomVaultService.swift"; path = "Sources/Services/DarkroomVaultService.swift"; sourceTree = SOURCE_ROOT; };
+		B884F08814EEAD7CA2981466 /* Sources/Services/LiveActivityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LiveActivityCoordinator.swift"; path = "Sources/Services/LiveActivityCoordinator.swift"; sourceTree = SOURCE_ROOT; };
+		80FC13EB80EE5A885D2991D6 /* Sources/Services/NotificationAndPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NotificationAndPhotoService.swift"; path = "Sources/Services/NotificationAndPhotoService.swift"; sourceTree = SOURCE_ROOT; };
+		8D401F2A9D6F181000F13660 /* Sources/Services/StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StoreKitManager.swift"; path = "Sources/Services/StoreKitManager.swift"; sourceTree = SOURCE_ROOT; };
+		F38BAD6118F3D027AB231CC0 /* Sources/Shared/DarkroomActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DarkroomActivityAttributes.swift"; path = "Sources/Shared/DarkroomActivityAttributes.swift"; sourceTree = SOURCE_ROOT; };
+		6D80E5F3AAF060C3F7C1E141 /* Sources/Views/CameraViewfinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CameraViewfinderView.swift"; path = "Sources/Views/CameraViewfinderView.swift"; sourceTree = SOURCE_ROOT; };
+		3F9F35CD00603208D3985EA8 /* Sources/Views/DarkroomVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DarkroomVaultView.swift"; path = "Sources/Views/DarkroomVaultView.swift"; sourceTree = SOURCE_ROOT; };
+		4FD8E6D9FA534990EB136B1C /* Sources/Views/ImpulsePaywallSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ImpulsePaywallSheetView.swift"; path = "Sources/Views/ImpulsePaywallSheetView.swift"; sourceTree = SOURCE_ROOT; };
+		67AAFF9D6AA62FB53EA879AF /* Sources/Views/LabSettingsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LabSettingsSheetView.swift"; path = "Sources/Views/LabSettingsSheetView.swift"; sourceTree = SOURCE_ROOT; };
+		5E7E1D5CEEA97108FBF42E97 /* Sources/Views/WaitCamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WaitCamViewModel.swift"; path = "Sources/Views/WaitCamViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		1E992BC3ACF96F6015E2EF3A /* Tests/WaitCamTests/WaitCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WaitCamTests.swift"; path = "Tests/WaitCamTests/WaitCamTests.swift"; sourceTree = SOURCE_ROOT; };
+		D36A02947586A5A1FAC0261C /* Widgets/DarkroomLiveActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DarkroomLiveActivityWidget.swift"; path = "Widgets/DarkroomLiveActivityWidget.swift"; sourceTree = SOURCE_ROOT; };
+		E48A8A61A3E1F511C4DF744F /* Widgets/WaitCamWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WaitCamWidgetsBundle.swift"; path = "Widgets/WaitCamWidgetsBundle.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28D43FC0059743A2761AF502 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		CB0582841A899B0A805D34B5 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		B39416A20A068E3934B9EE52 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E2C228BF1667ED08245CE5 = {
+			isa = PBXGroup;
+			children = (
+				2292614A29CA19FE89926BF4 /* Sources */,
+				14181905DE6BF9D8A0FCA2FC /* Widgets */,
+				AC6A14F2D5E581268F641908 /* Tests */,
+				514F35DAFBFF61004D1E63BD /* Resources */,
+				237529D893F2B93330CAA282 /* Config */,
+				210FC6EE615FDB81B1BFCC89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2292614A29CA19FE89926BF4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C1802E64D2AECA56D6A912C7 /* Sources/App/RootCameraShellView.swift */,
+				07978B52AC733D9219D86412 /* Sources/App/WaitCamApp.swift */,
+				579048F27A380E179B5619F8 /* Sources/Models/DarkroomModels.swift */,
+				444525401ACD2E61AFC0BD41 /* Sources/Rendering/FilmLabProcessor.swift */,
+				6EA61466E847ED4417E89940 /* Sources/Rendering/SimulatedPartySceneRenderer.swift */,
+				63875A2404859C49B1D52126 /* Sources/Services/CameraSessionService.swift */,
+				9D64CF0519966E473F209380 /* Sources/Services/DarkroomVaultService.swift */,
+				B884F08814EEAD7CA2981466 /* Sources/Services/LiveActivityCoordinator.swift */,
+				80FC13EB80EE5A885D2991D6 /* Sources/Services/NotificationAndPhotoService.swift */,
+				8D401F2A9D6F181000F13660 /* Sources/Services/StoreKitManager.swift */,
+				F38BAD6118F3D027AB231CC0 /* Sources/Shared/DarkroomActivityAttributes.swift */,
+				6D80E5F3AAF060C3F7C1E141 /* Sources/Views/CameraViewfinderView.swift */,
+				3F9F35CD00603208D3985EA8 /* Sources/Views/DarkroomVaultView.swift */,
+				4FD8E6D9FA534990EB136B1C /* Sources/Views/ImpulsePaywallSheetView.swift */,
+				67AAFF9D6AA62FB53EA879AF /* Sources/Views/LabSettingsSheetView.swift */,
+				5E7E1D5CEEA97108FBF42E97 /* Sources/Views/WaitCamViewModel.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		14181905DE6BF9D8A0FCA2FC /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				D36A02947586A5A1FAC0261C /* Widgets/DarkroomLiveActivityWidget.swift */,
+				E48A8A61A3E1F511C4DF744F /* Widgets/WaitCamWidgetsBundle.swift */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		AC6A14F2D5E581268F641908 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E992BC3ACF96F6015E2EF3A /* Tests/WaitCamTests/WaitCamTests.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		514F35DAFBFF61004D1E63BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA19EED73335682C9A15AA16 /* Assets.xcassets */,
+				9695C457CF98BD4ED8F75AF6 /* PrivacyInfo.xcprivacy */,
+				15D06C62B45C4719528AE0E3 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		237529D893F2B93330CAA282 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				67C7E03653000A66AAB37DEB /* Info.plist */,
+				7F624670F731ED439B770104 /* Widget-Info.plist */,
+				FF46F0362F4408FAA0F5B5AB /* WaitCam.entitlements */,
+				45526278A338D5251E9C737F /* WaitCamWidgets.entitlements */,
+				9C7CEAC9ACEC74FB0A851827 /* WaitCam.storekit */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		210FC6EE615FDB81B1BFCC89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74A74583426E7D0AA82D0749 /* WaitCam.app */,
+				AB142621AC91179E9B6D5B46 /* WaitCamWidgets.appex */,
+				143F7B08313B8407D169E48E /* WaitCamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		447F6BEC548AAE3B91181588 /* WaitCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3D8F06117C87B8EA39A4CA;
+			buildPhases = (
+				840170EA8926EBEA415DC699 /* Sources */,
+				28D43FC0059743A2761AF502 /* Frameworks */,
+				54407BEFFC0769105380D7CB /* Resources */,
+				241BCA7D4C36ADC68F9585E1 /* Embed Foundation Extensions */,
+			);
+			buildRules = ();
+			dependencies = (BA722D34572D788C9450830F /* PBXTargetDependency */);
+			name = WaitCam;
+			productName = WaitCam;
+			productReference = 74A74583426E7D0AA82D0749 /* WaitCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		137AE7D406D5F1A73FC0BFD3 /* WaitCamWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A25A428B739960D8D2118C;
+			buildPhases = (
+				2B067A570E63B243742C8B0D /* Sources */,
+				CB0582841A899B0A805D34B5 /* Frameworks */,
+				B31629C1C75E215FA52E8032 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = WaitCamWidgets;
+			productName = WaitCamWidgets;
+			productReference = AB142621AC91179E9B6D5B46 /* WaitCamWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B1DF13C05F3546F40CB436CD /* WaitCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE1E3C0D9BF0601096CACFF;
+			buildPhases = (
+				09DFB81508406661D1E11E34 /* Sources */,
+				B39416A20A068E3934B9EE52 /* Frameworks */,
+				E22A66E497016A0332848354 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (586ED3A8DCDEB9D0CF6F637A /* PBXTargetDependency */);
+			name = WaitCamTests;
+			productName = WaitCamTests;
+			productReference = 143F7B08313B8407D169E48E /* WaitCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7964B0CB7C24DEDCFB6BE42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					447F6BEC548AAE3B91181588 = { CreatedOnToolsVersion = 27.2; };
+					137AE7D406D5F1A73FC0BFD3 = { CreatedOnToolsVersion = 27.2; };
+					B1DF13C05F3546F40CB436CD = { CreatedOnToolsVersion = 27.2; TestTargetID = 447F6BEC548AAE3B91181588; };
+				};
+			};
+			buildConfigurationList = 66D113EDDEEB4F3240C2D0D2;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = ("zh-Hans", en, Base);
+			mainGroup = 47E2C228BF1667ED08245CE5;
+			productRefGroup = 210FC6EE615FDB81B1BFCC89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				447F6BEC548AAE3B91181588 /* WaitCam */,
+				137AE7D406D5F1A73FC0BFD3 /* WaitCamWidgets */,
+				B1DF13C05F3546F40CB436CD /* WaitCamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54407BEFFC0769105380D7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECE118AB1819BBDB77DF2B3 /* app_res::Assets.xcassets */,
+				4C162E8B230A6FD6A286E23C /* app_res::PrivacyInfo.xcprivacy */,
+				059D9068BDE3E10F92DE0727 /* app_res::InfoPlist.strings */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31629C1C75E215FA52E8032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E73DF902782B3D77D11916 /* widget_res::PrivacyInfo.xcprivacy */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22A66E497016A0332848354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8F1D3DCB4B0DCF2C5FECC4 /* test_res::WaitCam.storekit */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840170EA8926EBEA415DC699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAB4955D9D994AFE0EC0756 /* Sources/App/RootCameraShellView.swift */,
+				4DF176010100E7929E26B614 /* Sources/App/WaitCamApp.swift */,
+				B15062C5065B7B243C891CAE /* Sources/Models/DarkroomModels.swift */,
+				71BD104D9C2F3AFE38E50A8A /* Sources/Rendering/FilmLabProcessor.swift */,
+				FBA0B649CCD48FD82668CAA1 /* Sources/Rendering/SimulatedPartySceneRenderer.swift */,
+				A5E07BA8DE729A7DEF2DF50B /* Sources/Services/CameraSessionService.swift */,
+				B0BC894D98039C53A686F8E0 /* Sources/Services/DarkroomVaultService.swift */,
+				A0D963470CF638A6212F7D24 /* Sources/Services/LiveActivityCoordinator.swift */,
+				4FC94AA2C0A09C645D3BE74F /* Sources/Services/NotificationAndPhotoService.swift */,
+				789A98CEB3038AF03649A8B8 /* Sources/Services/StoreKitManager.swift */,
+				8067C4BEC4390718374C1E69 /* Sources/Shared/DarkroomActivityAttributes.swift */,
+				397D3408F31BBB1A68022372 /* Sources/Views/CameraViewfinderView.swift */,
+				F1E518A3A100C82EDE3A3A35 /* Sources/Views/DarkroomVaultView.swift */,
+				4F22AB76715BC287C973A7CF /* Sources/Views/ImpulsePaywallSheetView.swift */,
+				D3DC8B8DE6998A791EE62F43 /* Sources/Views/LabSettingsSheetView.swift */,
+				D43613C05D5EAFEE3F1B9E06 /* Sources/Views/WaitCamViewModel.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B067A570E63B243742C8B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520716D4106AC9A28AC6A66C /* Sources/Shared/DarkroomActivityAttributes.swift */,
+				4F27B25E5479D15D61D6E51F /* Widgets/DarkroomLiveActivityWidget.swift */,
+				A2224A566E9BAAD35079B81D /* Widgets/WaitCamWidgetsBundle.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09DFB81508406661D1E11E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDAE205F705682AF36DA005 /* Tests/WaitCamTests/WaitCamTests.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA722D34572D788C9450830F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137AE7D406D5F1A73FC0BFD3 /* WaitCamWidgets */;
+			targetProxy = B0AC53DCD258414F711CAA31 /* PBXContainerItemProxy */;
+		};
+		586ED3A8DCDEB9D0CF6F637A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447F6BEC548AAE3B91181588 /* WaitCam */;
+			targetProxy = 7A07881B821CE86272C40303 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15D06C62B45C4719528AE0E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D90727B8256C988E45D894 /* zh-Hans */,
+				0847C83E438A435A64E7180E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CAF86B91D788BFAFE5125ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KU364788TC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+			};
+			name = Debug;
+		};
+		04D380052A01078AD5DC636C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KU364788TC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0.0;
+				CURRENT_PROJECT_VERSION = 1;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797A9180484652C8703A0029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Config/WaitCam.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanghe.waitcam;
+				PRODUCT_NAME = WaitCam;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		4BBF1C98ADBF28D767EC97E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Config/WaitCam.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanghe.waitcam;
+				PRODUCT_NAME = WaitCam;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		894BCE55EA77C1704E0CF536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "Config/WaitCamWidgets.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanghe.waitcam.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		D7A39C08EF7A1DF7F648D09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = "Config/WaitCamWidgets.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanghe.waitcam.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		8E16A657AE63681C81ACACA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanghe.waitcam.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaitCam.app/WaitCam";
+			};
+			name = Debug;
+		};
+		AE5A13E83CF7C6FABAA05C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanghe.waitcam.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaitCam.app/WaitCam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D113EDDEEB4F3240C2D0D2 /* Build configuration list for PBXProject WaitCam */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAF86B91D788BFAFE5125ED /* Debug */,
+				04D380052A01078AD5DC636C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3D8F06117C87B8EA39A4CA /* Build configuration list for PBXNativeTarget WaitCam */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797A9180484652C8703A0029 /* Debug */,
+				4BBF1C98ADBF28D767EC97E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A25A428B739960D8D2118C /* Build configuration list for PBXNativeTarget WaitCamWidgets */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894BCE55EA77C1704E0CF536 /* Debug */,
+				D7A39C08EF7A1DF7F648D09A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE1E3C0D9BF0601096CACFF /* Build configuration list for PBXNativeTarget WaitCamTests */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E16A657AE63681C81ACACA7 /* Debug */,
+				AE5A13E83CF7C6FABAA05C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7964B0CB7C24DEDCFB6BE42 /* Project object */;
+}

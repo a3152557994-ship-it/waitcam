@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>隐私政策 Privacy Policy — WaitCam</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; background: #09090c; color: #f4f4f7; line-height: 1.75; }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 72px; }
+    h1 { font-size: 30px; margin-bottom: 6px; }
+    h2 { font-size: 19px; color: #ff7a33; margin-top: 28px; }
+    p, li { color: #c7c9d3; font-size: 15px; }
+    a { color: #ff9c59; }
+    .box { background: #14141a; border: 1px solid rgba(255,107,44,0.35); border-radius: 14px; padding: 18px 20px; margin: 20px 0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>隐私政策 / Privacy Policy</h1>
+    <p>生效日期 / Effective Date: 2026-11-16 · 应用名称：WaitCam（12小时延迟显影派对胶片相机）</p>
+
+    <div class="box">
+      <strong>核心承诺：</strong> WaitCam 坚持 100% 设备端本地暗房处理与 AES-256 沙盒加密存储。我们<strong>不收集、不上传、不存储、不出售</strong>任何用户的照片、身份信息、位置信息或拍摄行为数据。应用零后端服务器、零第三方广告与跟踪 SDK。
+    </div>
+
+    <h2>1. 权限与本地数据说明（简体中文）</h2>
+    <ul>
+      <li><strong>相机权限（Camera）</strong>：仅用于您在取景器内拍摄胶片照片，所有 CoreImage 复古滤镜均在 iPhone 本地 GPU 实时处理完成，绝不上传至外部服务器。</li>
+      <li><strong>本地暗房沙盒加密</strong>：拍摄后的照片在显影倒计时期间通过 Apple CryptoKit (AES-256-GCM) 加密存放在您本机应用沙盒（Application Support/WaitCamDarkroom）中，不会提前写入系统相册，亦无云端备份或远程访问。</li>
+      <li><strong>照片图库写入权限（Photo Library Add）</strong>：仅在显影倒计时结束、且您主动点击「一键批量导出至系统相册」或「生成接触印相单」时，将无水印高清 JPEG 写入系统相册。</li>
+      <li><strong>本地通知与灵动岛（Notifications &amp; Live Activities）</strong>：倒计时提醒完全由 iOS 本地通知调度与 ActivityKit 驱动，不经过任何远程推送服务器。</li>
+      <li><strong>App 内购买（StoreKit 2）</strong>：仅当您主动选择一次性买断（¥6 / ¥12）或恢复购买时与 Apple App Store 进行官方本地凭证校验。</li>
+    </ul>
+
+    <h2>2. Privacy &amp; On-Device Architecture (English)</h2>
+    <p><strong>WaitCam runs 100% offline with zero servers and zero tracking.</strong> All CoreImage film grain, halation, date stamping, AES-256 darkroom encryption, Live Activity countdowns, and local notifications execute strictly on your iPhone.</p>
+    <ul>
+      <li><strong>Camera</strong>: Used solely for live optical viewfinder preview and photo capture.</li>
+      <li><strong>Photo Library</strong>: Accessed only when you tap to export developed film photos or 35mm contact sheets to Apple Photos.</li>
+      <li><strong>In-App Purchases</strong>: Non-consumable one-time unlocks are verified directly via Apple StoreKit 2. No third-party analytics, ad networks, or account logins exist.</li>
+    </ul>
+
+    <h2>3. 联系我们 / Contact</h2>
+    <p>如对隐私保护有任何疑问，请发邮件至：<a href="mailto:a3152557994@gmail.com">a3152557994@gmail.com</a></p>
+    <p><a href="./index.html">← 返回首页 Home</a> · <a href="./terms.html">使用条款 Terms</a> · <a href="./support.html">技术支持 Support</a></p>
+  </div>
+</body>
+</html>

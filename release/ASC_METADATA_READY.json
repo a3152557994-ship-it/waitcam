@@ -1,0 +1,111 @@
+{
+  "bundleId": "com.yanghe.waitcam",
+  "widgetBundleId": "com.yanghe.waitcam.widgets",
+  "sku": "WAITCAM2026GLOBAL",
+  "primaryLocale": "en-US",
+  "category": "PHOTO_AND_VIDEO",
+  "products": {
+    "proAnnual": {
+      "productId": "com.yanghe.waitcam.pro.annual",
+      "type": "AUTO_RENEWABLE_SUBSCRIPTION",
+      "period": "ONE_YEAR",
+      "introOffer": "3_DAY_FREE_TRIAL",
+      "usdPrice": "14.99",
+      "cnyPrice": "38.00"
+    },
+    "proLifetime": {
+      "productId": "com.yanghe.waitcam.pro.lifetime",
+      "type": "NON_CONSUMABLE",
+      "usdPrice": "9.99",
+      "cnyPrice": "28.00"
+    },
+    "darkroomPlus": {
+      "productId": "com.yanghe.waitcam.darkroom.plus",
+      "type": "NON_CONSUMABLE",
+      "usdPrice": "2.99",
+      "cnyPrice": "8.00"
+    }
+  },
+  "localizations": {
+    "en-US": {
+      "name": "WaitCam: 12h Film Camera",
+      "subtitle": "Disposable Retro Flash & Reels",
+      "keywords": "film camera,disposable camera,2am cam,vintage camera,retro flash,darkroom,party cam,35mm,ccd,analog",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    },
+    "zh-Hans": {
+      "name": "WaitCam - 12小时显影胶片相机",
+      "subtitle": "2AM派对闪光灯相机 · 灵动岛暗房",
+      "keywords": "胶片相机,延迟显影,闪光灯相机,一次性相机,复古相机,CCD相机,2am cam,film camera,灵动岛,暗房,派对相机",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    },
+    "zh-Hant": {
+      "name": "WaitCam - 12小時顯影底片相機",
+      "subtitle": "派對閃光燈即可拍 · 動態島暗房",
+      "keywords": "底片相機,即可拍,復古相機,閃光燈相機,CCD相機,膠卷相機,暗房,派對相機,延遲顯影,35mm",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    },
+    "ja": {
+      "name": "WaitCam: 12時間現像フィルムカメラ",
+      "subtitle": "写ルンです風フラッシュ＆暗室体験",
+      "keywords": "フィルムカメラ,使い捨てカメラ,レトロカメラ,エモい写真,フラッシュ,暗室,日付カメラ,チェキ風,35mm,現像",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    },
+    "ko": {
+      "name": "WaitCam - 12시간 필름 카메라",
+      "subtitle": "일회용 감성 플래시 & 암실 현상",
+      "keywords": "필름카메라,일회용카메라,빈티지카메라,감성카메라,플래시카메라,레트로,디카,암실,현상,날짜스탬프",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    },
+    "es-MX": {
+      "name": "WaitCam: Cámara Desechable",
+      "subtitle": "Rollo 35mm Retro y Revelado",
+      "keywords": "camara desechable,camara retro,camara analogica,filtro 35mm,fiesta,boda,rollo fotografico,vintage",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    },
+    "pt-BR": {
+      "name": "WaitCam: Câmera Descartável",
+      "subtitle": "Filme 35mm Retrô e Revelação",
+      "keywords": "camera descartavel,camera retro,filme 35mm,camera vintage,festa,analogica,flash,revelacao,ccd",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    },
+    "de-DE": {
+      "name": "WaitCam: Einwegkamera 35mm",
+      "subtitle": "Retro Blitz & 12h Dunkelkammer",
+      "keywords": "einwegkamera,retro kamera,analog kamera,35mm film,vintage foto,party kamera,dunkelkammer,blitz",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    },
+    "fr-FR": {
+      "name": "WaitCam: Appareil Jetable 35mm",
+      "subtitle": "Photo Argentique & Flash Rétro",
+      "keywords": "appareil jetable,photo argentique,camera retro,pellicule 35mm,soiree,flash vintage,chambre noire",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    },
+    "it": {
+      "name": "WaitCam: Fotocamera Usa&Getta",
+      "subtitle": "Pellicola 35mm & Flash Vintage",
+      "keywords": "fotocamera usa e getta,pellicola 35mm,foto vintage,analogica,camera oscura,festa,flash retro,ccd",
+      "privacyPolicyUrl": "https://a3152557994-ship-it.github.io/waitcam/privacy.html",
+      "supportUrl": "https://a3152557994-ship-it.github.io/waitcam/support.html",
+      "termsUrl": "https://a3152557994-ship-it.github.io/waitcam/terms.html"
+    }
+  }
+}

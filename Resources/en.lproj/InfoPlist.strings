@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "WaitCam";
+"NSCameraUsageDescription" = "WaitCam uses your camera to capture retro flash film shots that stay encrypted in your local on-device darkroom.";
+"NSPhotoLibraryAddUsageDescription" = "WaitCam saves your watermark-free developed film roll photos and contact sheets to your Photo Library after development completes.";
+"NSPhotoLibraryUsageDescription" = "WaitCam accesses your Photo Library only when exporting developed rolls and contact sheets.";

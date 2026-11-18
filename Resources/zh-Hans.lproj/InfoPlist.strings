@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "WaitCam";
+"NSCameraUsageDescription" = "WaitCam 需要使用相机拍摄复古胶片照片，所有成片均只在设备本地暗房加密存储，绝不上传云端。";
+"NSPhotoLibraryAddUsageDescription" = "WaitCam 需要在 12 小时显影倒计时结束后，将无水印高清胶片照片一键批量保存至系统相册。";
+"NSPhotoLibraryUsageDescription" = "WaitCam 仅在您手动导出显影完成的胶卷成片与接触印相单时访问系统相册。";
