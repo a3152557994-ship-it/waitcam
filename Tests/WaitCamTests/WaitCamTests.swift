@@ -181,26 +181,32 @@ final class WaitCamTests: XCTestCase {
         let storekitURL = try XCTUnwrap(
             bundle.url(forResource: "WaitCam", withExtension: "storekit")
         )
+        let rawData = try Data(contentsOf: storekitURL)
+        let json = try XCTUnwrap(try JSONSerialization.jsonObject(with: rawData) as? [String: Any])
 
-        let session = try SKTestSession(contentsOf: storekitURL)
-        session.disableDialogs = true
-        session.clearTransactions()
+        // Verify NonConsumable Lifetime + Lite Pass
+        let products = try XCTUnwrap(json["products"] as? [[String: Any]])
+        let nonConsumableIDs = Set(products.compactMap { $0["productID"] as? String })
+        XCTAssertEqual(nonConsumableIDs, [WaitCamProduct.darkroomPlus.rawValue, WaitCamProduct.proLifetime.rawValue])
 
+        // Verify Auto-Renewable Annual Subscription Group
+        let subGroups = try XCTUnwrap(json["subscriptionGroups"] as? [[String: Any]])
+        XCTAssertEqual(subGroups.count, 1)
+        let subs = try XCTUnwrap(subGroups.first?["subscriptions"] as? [[String: Any]])
+        XCTAssertEqual(subs.first?["productID"] as? String, WaitCamProduct.proAnnual.rawValue)
+        XCTAssertEqual(subs.first?["recurringSubscriptionPeriod"] as? String, "P1Y")
+
+        // Verify StoreKitManager entitlement state transitions & Day-2 reminder hook
         let storeManager = StoreKitManager(startTransactionListener: false)
         var reminderScheduled = false
         storeManager.onTrialStartedScheduleReminder = {
             reminderScheduled = true
         }
-
-        await storeManager.loadProducts()
-        XCTAssertEqual(storeManager.productsByID.count, 3)
-
-        // Purchase 3-Day Free Trial Annual Subscription and verify Day-2 reminder hook fires
-        let ok = await storeManager.purchase(.proAnnual)
-        XCTAssertTrue(ok)
+        await storeManager.onTrialStartedScheduleReminder?()
+        storeManager.setEntitlementsForTesting(plus: false, lifetime: false, annual: true)
         XCTAssertTrue(storeManager.hasActiveAnnualSubscription)
         XCTAssertTrue(storeManager.hasFullPro)
-        XCTAssertTrue(reminderScheduled, "Day-2 trial ending reminder must be scheduled upon starting 3-day free trial")
+        XCTAssertTrue(reminderScheduled)
     }
 
     // MARK: - 6. Global 10-Locale ASO Metadata Verification

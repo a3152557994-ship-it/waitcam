@@ -49,7 +49,7 @@
     "_applicationInternalID" : "6835099001",
     "_developerTeamID" : "KU364788TC",
     "_failTransactionsEnabled" : false,
-    "_locale" : "en_US",
+    "_locale" : "zh_CN",
     "_storefront" : "USA",
     "_storeKitErrors" : [
       {
@@ -101,7 +101,7 @@
   },
   "subscriptionGroups" : [
     {
-      "id" : "21588901",
+      "id" : "9B81D042",
       "localizations" : [
         {
           "customAppName" : "WaitCam Pro",
@@ -125,12 +125,7 @@
           "familyShareable" : false,
           "groupNumber" : 1,
           "internalID" : "8A10S201",
-          "introductoryOffer" : {
-            "internalID" : "8A10T301",
-            "numberOfPeriods" : 1,
-            "paymentMode" : "free",
-            "subscriptionPeriod" : "P3D"
-          },
+          "introductoryOffer" : null,
           "localizations" : [
             {
               "description" : "3-day free trial, then billed yearly. Unlock all film stocks, parallel rolls & custom timers. Cancel anytime.",
@@ -146,7 +141,7 @@
           "productID" : "com.yanghe.waitcam.pro.annual",
           "recurringSubscriptionPeriod" : "P1Y",
           "referenceName" : "WaitCam Pro Annual Trial",
-          "subscriptionGroupID" : "21588901",
+          "subscriptionGroupID" : "9B81D042",
           "type" : "RecurringSubscription",
           "winbackOffers" : [
 
