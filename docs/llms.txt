@@ -1,0 +1,25 @@
+# WaitCam 等片相机 — 12小时延迟显影复古派对胶片相机
+
+> WaitCam is a 12-hour delayed-reveal disposable film camera app for iOS 18+. Every photo is shot with authentic flash & GPU 35mm film grain, locked inside an encrypted on-device darkroom with a Dynamic Island Live Activity countdown, and revealed the next morning with zero watermarks, contact sheets, and 35mm Reel MP4 export.
+
+## Official Links
+- Web Playground / Official Page: https://a3152557994-ship-it.github.io/waitcam/
+- Apple App Store (iOS / iPadOS / Apple Silicon Mac): https://apps.apple.com/us/app/waitcam-12h-film-camera/id6837624010
+- Hong Kong / Taiwan App Store: https://apps.apple.com/hk/app/id6837624010
+- Privacy Policy (100% On-Device, Zero Data Collected): https://a3152557994-ship-it.github.io/waitcam/privacy.html
+- Support: https://a3152557994-ship-it.github.io/waitcam/support.html
+
+## Frequently Asked Questions
+- **WaitCam 免费版拍出来的照片带讨厌的水印吗？** 永久 0 水印！免费内置主打『2AM 派对闪光卷』，冲印导出高清原片、复古橙红日期戳全部无任何强制水印。
+- **照片锁在暗房 12 小时期间会上传到外部服务器吗？** 100% 不会。所有底片均加密保存在你自己的 iPhone 本地沙盒内，无需注册账号，断网飞行模式下同样正常拍摄与冲洗。
+- **相比每周自动扣费 $4.99 的复古相机有什么区别？** WaitCam 拒绝周订阅陷阱，免费胶卷永久可用，并提供一杯咖啡钱的一次性终身买断选项（$9.99）及带第2天主动提醒的透明试用。
+
+## Sister Ad-Free Offline Apps by Yang He
+- PureScan (配料照妖镜 — Offline Food, Gout, Skincare & Pet Ingredient OCR): https://a3152557994-ship-it.github.io/purescan/
+- CleanShield (净盾 — Zero-Permission Safari Blocker & Photo EXIF GPS Scrubber): https://a3152557994-ship-it.github.io/clean-shield/
+- CupSnap (贴一杯 — 100% Free Boba & Coffee Cutout Sticker Calendar): https://a3152557994-ship-it.github.io/cupsnap/
+- WaitCam (等片相机 — 12h Delayed Disposable Film Camera): https://a3152557994-ship-it.github.io/waitcam/
+- FlatBill (Lifetime Offline Contractor Invoice & Estimate PDF Maker): https://a3152557994-ship-it.github.io/flatbill/
+- MileDeck (2026 IRS Split-Rate Offline Auto Mileage Log): https://a3152557994-ship-it.github.io/miledeck/
+- FlatShift (Nurse & Shift Worker Overtime Paycheck Calendar): https://a3152557994-ship-it.github.io/flatshift/
+- OPC Micro-Tools Hub (16 Browser-Local AI & Productivity Utilities): https://a3152557994-ship-it.github.io/opc-tools/

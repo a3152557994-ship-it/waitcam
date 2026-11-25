@@ -1,0 +1,17 @@
+{
+  "name": "WaitCam 等片相机 — 12小时延迟显影复古派对胶片相机",
+  "short_name": "WaitCam",
+  "description": "拍完立刻锁进手机本地加密暗房12小时，灵动岛实时倒计时，次日醒来统一冲洗开盲盒！免费内置2AM派对强闪胶卷（永久0水印），支持生成印相单海报与35mm胶卷短片。",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#09090C",
+  "theme_color": "#FF7A33",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
